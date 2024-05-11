@@ -4,7 +4,7 @@
 
 This project creates a completely Local "Chat with your Docs" retrieval augmented generation (RAG) application using Cohere's ⌘ R, served locally using Ollama. It also utilizes the Qdrant vector database (self-hosted) and Fastembed for embedding generation.
 
-![Flow Diagram](resources/flow.png)
+![Flow Diagram](https://raw.githubusercontent.com/horizonbymuneeb/Local-RAG-app-using-Cohere-s--R-and-Ollama/main/resources/flow.png)
 
 ## Key Features
 
@@ -48,6 +48,9 @@ To run the project, follow these steps:
 4. After Ollama is running, execute the following command to start the Streamlit app:
    ```bash
    pip install -r requirements.txt
+   ```
+   
+   ```bash
    streamlit run app.py
    ```
 5. Open your web browser and navigate to the Streamlit app URL to interact with the "Chat with your Docs" application.
