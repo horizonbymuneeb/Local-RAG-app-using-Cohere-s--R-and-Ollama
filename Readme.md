@@ -42,17 +42,17 @@ To run the project, follow these steps:
 1. Install Ollama by following the instructions on their [website](https://ollama.com/).
 2. Install the Cohere model for Ollama. You can find the model installation instructions on Cohere's website.
 3. Run Ollama by executing the following command:
-   ```bash
-   ollama serve
+```bash
+ollama serve
    ```
 4. After Ollama is running, execute the following command to start the Streamlit app:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   
-   ```bash
-   streamlit run app.py
-   ```
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+streamlit run app.py
+```
 5. Open your web browser and navigate to the Streamlit app URL to interact with the "Chat with your Docs" application.
 
 ## Dependencies
