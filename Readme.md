@@ -1,5 +1,3 @@
-
-```markdown
 # Chat with your Docs RAG Application
 
 This project creates a completely local "Chat with your Docs" retrieval augmented generation (RAG) application using Cohere's ⌘ R, served locally using Ollama. It also utilizes the Qdrant vector database (self-hosted) and Fastembed for embedding generation.
@@ -27,7 +25,7 @@ To run Ollama, execute the following command:
 
 ```bash
 ollama serve
-```
+
 
 After Ollama is running, execute the following command to start the Streamlit app:
 
