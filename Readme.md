@@ -2,7 +2,7 @@
 ```markdown
 # Chat with your Docs RAG Application
 
-This project creates a completely Local "Chat with your Docs" retrieval augmented generation (RAG) application using Cohere's ⌘ R, served locally using Ollama. It also utilizes the Qdrant vector database (self-hosted) and Fastembed for embedding generation.
+This project creates a completely local "Chat with your Docs" retrieval augmented generation (RAG) application using Cohere's ⌘ R, served locally using Ollama. It also utilizes the Qdrant vector database (self-hosted) and Fastembed for embedding generation.
 
 ![Flow Diagram](https://raw.githubusercontent.com/horizonbymuneeb/Local-RAG-app-using-Cohere-s--R-and-Ollama/main/resources/flow.png)
 
@@ -13,8 +13,6 @@ This project creates a completely Local "Chat with your Docs" retrieval augmente
 - Long 128k-token context length.
 - Strong multilingual capabilities across 10 key languages.
 
-## For Local PC and For Lightingai.com
-
 ## Installation
 
 To set up the project, follow these steps:
@@ -22,15 +20,17 @@ To set up the project, follow these steps:
 1. Clone the repository.
 2. Install the required dependencies.
 3. Set up Cohere's ⌘ R locally using Ollama.
-4. Configure the Qdrant vector database (self-hosted).(autoset in lightingai)
+4. Configure the Qdrant vector database (self-hosted) (automatically set in LightningAI).
 5. Use Fastembed for embedding generation.
 
 To run Ollama, execute the following command:
+
 ```bash
 ollama serve
 ```
 
 After Ollama is running, execute the following command to start the Streamlit app:
+
 ```bash
 streamlit run app.py
 ```
@@ -42,18 +42,24 @@ To run the project, follow these steps:
 1. Install Ollama by following the instructions on their [website](https://ollama.com/).
 2. Install the Cohere model for Ollama. You can find the model installation instructions on Cohere's website.
 3. Run Ollama by executing the following command:
+
 ```bash
 ollama serve
-   ```
-4. After Ollama is running, execute the following command to start the Streamlit app:
+```
+
+4. After Ollama is running, install the dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
+5. Finally, start the Streamlit app:
+
 ```bash
 streamlit run app.py
 ```
-5. Open your web browser and navigate to the Streamlit app URL to interact with the "Chat with your Docs" application.
+
+6. Open your web browser and navigate to the Streamlit app URL to interact with the "Chat with your Docs" application.
 
 ## Dependencies
 
@@ -83,7 +89,6 @@ If you encounter any issues or bugs, please report them [here](https://github.co
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
 ```
 
-This README provides a detailed overview of the project, including its features, installation instructions, usage guidelines, and contribution details.
+This version of the README provides clear instructions for installing, running, and contributing to the project.
